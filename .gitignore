@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Данные и кеши (воспроизводимы скриптами)
+adv_cache/
+adv_cache_cifar/
+adv_training_cache/
+adv_training_cache_cifar/
+MNIST/
+cifar_data/
+samples/
+*.npz
+*.pt
+*.pth
+
+# Профили (генерируются CLI)
+profile_*.json
+*.pkl
+
+# Результаты экспериментов
+*.csv
+*.png
+!docs/*.png
+!assets/*.png
+
+# Тестовое окружение
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Локальное
+*.log
+playground/
+scratch/
